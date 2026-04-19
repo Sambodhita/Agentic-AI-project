@@ -1,152 +1,206 @@
 [
   {
     "id": "doc_001",
-    "topic": "Non-Disclosure Agreement (NDA)",
-    "text": "A Non-Disclosure Agreement (NDA) is a legal contract that establishes a confidential relationship between parties. It ensures that sensitive information such as trade secrets, business strategies, or proprietary data is not disclosed to third parties. NDAs typically define what constitutes confidential information, the duration of confidentiality, obligations of the receiving party, and exceptions such as information already in the public domain."
+    "title": "Non-Disclosure Agreement (NDA)",
+    "category": "contract_types",
+    "content": "A Non-Disclosure Agreement (NDA) is a legally binding contract that establishes a confidential relationship between parties. It ensures that sensitive information such as trade secrets, business strategies, or proprietary data is not disclosed. Key elements include definition of confidential information, exclusions (public domain, prior knowledge), obligations of the receiving party, duration (typically 2–5 years), permitted disclosures, return or destruction of data, and remedies such as injunctive relief. NDAs may be unilateral or mutual."
   },
   {
     "id": "doc_002",
-    "topic": "Employment Contract",
-    "text": "An employment contract is a legally binding agreement between an employer and an employee. It outlines job responsibilities, salary, benefits, working hours, termination conditions, and confidentiality obligations. It may also include clauses like non-compete, non-solicitation, and intellectual property ownership."
+    "title": "Employment Contract",
+    "category": "contract_types",
+    "content": "An employment contract defines the legal relationship between employer and employee. It includes job responsibilities, compensation, benefits, working hours, termination conditions, and confidentiality obligations. Common clauses include non-compete, non-solicitation, intellectual property ownership, dispute resolution, and governing law. In India, employment is also governed by labor laws such as the Industrial Disputes Act."
   },
   {
     "id": "doc_003",
-    "topic": "Liability Clause",
-    "text": "A liability clause limits or defines the extent to which a party can be held responsible for damages or losses. It often caps the amount of liability or excludes certain types of damages such as indirect or consequential losses. This clause is critical in risk allocation between parties."
+    "title": "Liability and Indemnity Clauses",
+    "category": "risk_assessment",
+    "content": "Liability clauses limit the extent a party is responsible for damages, often capping financial exposure or excluding indirect losses. Indemnity clauses require one party to compensate another for losses arising from specific events such as breach, negligence, or third-party claims. Best practices include mutual indemnification and clearly defined liability caps. Red flags include unlimited liability and one-sided indemnity."
   },
   {
     "id": "doc_004",
-    "topic": "Indemnity Clause",
-    "text": "An indemnity clause requires one party to compensate the other for certain losses or damages. It shifts financial responsibility from one party to another in case of specific events such as breach of contract, negligence, or third-party claims."
+    "title": "Termination Clause",
+    "category": "contract_law",
+    "content": "A termination clause defines how a contract can be ended. It includes termination for convenience, termination for cause, notice periods, cure periods, and consequences such as payment obligations and return of materials. It also specifies which obligations survive termination, such as confidentiality and IP rights."
   },
   {
     "id": "doc_005",
-    "topic": "Termination Clause",
-    "text": "A termination clause defines the conditions under which a contract can be ended by either party. It includes notice periods, termination for cause, termination without cause, and consequences such as payment obligations or return of confidential materials."
+    "title": "Jurisdiction and Governing Law",
+    "category": "contract_law",
+    "content": "This clause specifies which laws apply to a contract and which courts or tribunals will handle disputes. It ensures clarity in legal proceedings and enforcement. In India, contracts are governed by the Indian Contract Act 1872. Dispute resolution options include litigation, arbitration, and mediation."
   },
   {
     "id": "doc_006",
-    "topic": "Jurisdiction Clause",
-    "text": "A jurisdiction clause specifies which court or legal authority will handle disputes arising from a contract. It ensures clarity on where legal proceedings will take place and which laws will apply."
+    "title": "Force Majeure Clause",
+    "category": "contract_law",
+    "content": "A force majeure clause excuses performance when unforeseen events beyond control occur, such as natural disasters, war, pandemics, or government actions. It typically includes definitions of events, notice requirements, duration, and termination rights if disruption continues."
   },
   {
     "id": "doc_007",
-    "topic": "Force Majeure Clause",
-    "text": "A force majeure clause protects parties from liability when unforeseen events beyond their control prevent them from fulfilling contractual obligations. Examples include natural disasters, war, pandemics, or government actions."
+    "title": "Non-Compete Clause",
+    "category": "employment_law",
+    "content": "A non-compete clause restricts a party from engaging in competing activities after a relationship ends. Enforceability varies by jurisdiction. In India, post-employment non-competes are generally void under Section 27 of the Indian Contract Act. Reasonableness depends on time, geography, and scope."
   },
   {
     "id": "doc_008",
-    "topic": "Non-Compete Clause",
-    "text": "A non-compete clause restricts one party, usually an employee, from engaging in similar business activities that compete with the employer for a specified time and within a defined geographic area after leaving the company."
+    "title": "Arbitration Clause",
+    "category": "contract_law",
+    "content": "An arbitration clause requires disputes to be resolved through arbitration instead of courts. Arbitration is typically faster, private, and less formal. Clauses usually specify seat, governing rules, and number of arbitrators."
   },
   {
     "id": "doc_009",
-    "topic": "Arbitration Clause",
-    "text": "An arbitration clause requires disputes to be resolved through arbitration instead of court litigation. Arbitration is typically faster, private, and less formal than court proceedings."
+    "title": "Confidentiality Clause",
+    "category": "contract_law",
+    "content": "A confidentiality clause protects sensitive information shared between parties. It defines what constitutes confidential information, obligations to protect it, and consequences of breach."
   },
   {
     "id": "doc_010",
-    "topic": "Confidentiality Clause",
-    "text": "A confidentiality clause ensures that sensitive information shared between parties is protected. It defines the scope of confidential information, obligations to protect it, and consequences of breach."
+    "title": "Intellectual Property Clause",
+    "category": "ip_law",
+    "content": "This clause defines ownership of intellectual property created during a contract. It distinguishes between assignment and licensing, includes work-for-hire provisions, and may address background IP and moral rights. Clear drafting prevents disputes over ownership."
   },
   {
     "id": "doc_011",
-    "topic": "Intellectual Property Clause",
-    "text": "An intellectual property clause defines ownership rights over creations such as inventions, designs, or content developed during a contract. It ensures clarity on who retains rights to the work produced."
+    "title": "Payment Terms Clause",
+    "category": "contract_law",
+    "content": "Payment terms specify how and when payments must be made. They include due dates, payment methods, penalties for late payment, and installment structures."
   },
   {
     "id": "doc_012",
-    "topic": "Payment Terms Clause",
-    "text": "Payment terms specify how and when payments should be made under a contract. It includes due dates, penalties for late payments, methods of payment, and any installment structures."
+    "title": "Breach of Contract",
+    "category": "contract_law",
+    "content": "A breach occurs when a party fails to fulfill contractual obligations. Breaches may be minor or material. Remedies include damages, termination, or specific performance depending on severity."
   },
   {
     "id": "doc_013",
-    "topic": "Breach of Contract",
-    "text": "A breach of contract occurs when one party fails to fulfill its obligations as specified in the agreement. Breaches can be minor or material. Remedies may include damages, specific performance, or contract termination depending on severity."
+    "title": "Consideration in Contracts",
+    "category": "contract_law",
+    "content": "Consideration refers to something of value exchanged between parties. It is essential for a legally enforceable contract and can include money, services, or promises."
   },
   {
     "id": "doc_014",
-    "topic": "Consideration in Contracts",
-    "text": "Consideration refers to something of value exchanged between parties in a contract. It is a fundamental requirement for a legally enforceable agreement and can include money, services, or promises."
+    "title": "Offer and Acceptance",
+    "category": "contract_law",
+    "content": "A valid contract requires a clear offer and acceptance. Acceptance must match the offer exactly and be communicated effectively."
   },
   {
     "id": "doc_015",
-    "topic": "Offer and Acceptance",
-    "text": "A valid contract requires a clear offer by one party and acceptance by another. Acceptance must match the terms of the offer exactly and be communicated effectively."
+    "title": "Capacity to Contract",
+    "category": "contract_law",
+    "content": "Capacity refers to a party’s legal ability to enter into a contract. Parties must be of legal age, sound mind, and not disqualified by law."
   },
   {
     "id": "doc_016",
-    "topic": "Capacity to Contract",
-    "text": "Capacity refers to a party’s legal ability to enter into a contract. Individuals must be of sound mind, legal age, and not disqualified by law to form a binding agreement."
+    "title": "Duress and Undue Influence",
+    "category": "contract_law",
+    "content": "Contracts formed under coercion or manipulation may be invalid. Duress involves threats, while undue influence involves misuse of a position of power."
   },
   {
     "id": "doc_017",
-    "topic": "Duress and Undue Influence",
-    "text": "Contracts formed under pressure, coercion, or manipulation may be invalid. Duress involves threats, while undue influence involves exploiting a position of power over another party."
+    "title": "Remedies for Breach",
+    "category": "contract_law",
+    "content": "Remedies include compensatory damages, rescission, specific performance, and sometimes punitive damages. The goal is to restore the injured party."
   },
   {
     "id": "doc_018",
-    "topic": "Remedies for Breach",
-    "text": "Remedies for breach of contract include compensatory damages, punitive damages, rescission, and specific performance. The goal is to restore the injured party to their original position."
+    "title": "Contract Interpretation",
+    "category": "contract_law",
+    "content": "Contract interpretation involves determining the meaning of terms using plain language, intent of parties, and surrounding circumstances."
   },
   {
     "id": "doc_019",
-    "topic": "Contract Interpretation",
-    "text": "Contract interpretation involves analyzing the meaning of terms and clauses. Courts consider plain language, intent of parties, and surrounding circumstances to resolve ambiguities."
+    "title": "Entire Agreement Clause",
+    "category": "contract_law",
+    "content": "This clause states that the written contract represents the full agreement between parties, excluding prior discussions or understandings."
   },
   {
     "id": "doc_020",
-    "topic": "Entire Agreement Clause",
-    "text": "An entire agreement clause states that the written contract represents the full and final agreement between parties, excluding any prior discussions or understandings."
+    "title": "Specific Performance",
+    "category": "contract_law",
+    "content": "Specific performance is a remedy where a court orders a party to fulfill contractual obligations instead of paying damages, often used when monetary compensation is insufficient."
   },
   {
     "id": "doc_021",
-    "topic": "Specific Performance",
-    "text": "Specific performance is a legal remedy where the court orders a party to perform their contractual obligations instead of paying damages. It is typically used when monetary compensation is insufficient, such as in real estate transactions."
+    "title": "Rescission of Contract",
+    "category": "contract_law",
+    "content": "Rescission cancels a contract and restores parties to their original positions, often used in cases of fraud, misrepresentation, or mistake."
   },
   {
     "id": "doc_022",
-    "topic": "Rescission of Contract",
-    "text": "Rescission is the cancellation of a contract, returning both parties to their original positions before the agreement. It is commonly used when a contract is formed due to misrepresentation, fraud, or mistake."
+    "title": "Misrepresentation",
+    "category": "contract_law",
+    "content": "Misrepresentation occurs when a false statement induces a contract. It can be innocent, negligent, or fraudulent, with different remedies available."
   },
   {
     "id": "doc_023",
-    "topic": "Misrepresentation",
-    "text": "Misrepresentation occurs when one party makes a false statement that induces another party to enter into a contract. Depending on whether it is innocent, negligent, or fraudulent, different remedies may apply."
+    "title": "Void vs Voidable Contracts",
+    "category": "contract_law",
+    "content": "Void contracts are unenforceable from the start, while voidable contracts remain valid until one party chooses to void them due to defects like coercion or misrepresentation."
   },
   {
     "id": "doc_024",
-    "topic": "Void vs Voidable Contracts",
-    "text": "A void contract is not legally enforceable from the beginning, while a voidable contract is valid until one party chooses to void it due to certain legal defects such as misrepresentation or coercion."
+    "title": "Liquidated Damages",
+    "category": "contract_law",
+    "content": "Liquidated damages are pre-agreed amounts payable upon breach. They must represent a genuine estimate of loss and not function as a penalty."
   },
   {
     "id": "doc_025",
-    "topic": "Liquidated Damages",
-    "text": "Liquidated damages are a pre-agreed amount specified in a contract to be paid if one party breaches the agreement. They must be a genuine estimate of loss and not a penalty."
+    "title": "Penalty Clause",
+    "category": "contract_law",
+    "content": "Penalty clauses impose excessive charges for breach and are generally unenforceable if deemed punitive rather than compensatory."
   },
   {
     "id": "doc_026",
-    "topic": "Penalty Clause",
-    "text": "A penalty clause imposes an excessive monetary charge on breach of contract. Courts generally do not enforce penalty clauses if they are deemed punitive rather than compensatory."
+    "title": "Standard Form Contracts",
+    "category": "contract_law",
+    "content": "Standard form contracts are pre-drafted agreements with little room for negotiation, often used in consumer transactions and raising fairness concerns."
   },
   {
     "id": "doc_027",
-    "topic": "Standard Form Contracts",
-    "text": "Standard form contracts are pre-drafted agreements where one party has little to no ability to negotiate terms. These are common in consumer agreements and may raise fairness concerns."
+    "title": "Unconscionable Contracts",
+    "category": "contract_law",
+    "content": "Unconscionable contracts are extremely one-sided agreements that courts may refuse to enforce due to unfairness or unequal bargaining power."
   },
   {
     "id": "doc_028",
-    "topic": "Unconscionable Contracts",
-    "text": "An unconscionable contract is one that is extremely unfair or one-sided. Courts may refuse to enforce such agreements if they result from unequal bargaining power."
+    "title": "Agency Relationship",
+    "category": "contract_law",
+    "content": "An agency relationship exists when an agent acts on behalf of a principal and can create legal obligations for them."
   },
   {
     "id": "doc_029",
-    "topic": "Agency Relationship",
-    "text": "An agency relationship exists when one party (agent) acts on behalf of another (principal). The agent can create legal obligations for the principal through their actions."
+    "title": "Partnership Agreements",
+    "category": "contract_types",
+    "content": "A partnership agreement defines roles, profit sharing, decision-making, and dispute resolution among business partners."
   },
   {
     "id": "doc_030",
-    "topic": "Partnership Agreements",
-    "text": "A partnership agreement defines the relationship between business partners, including roles, profit sharing, decision-making, and dispute resolution mechanisms."
+    "title": "Contract Risk Assessment Framework",
+    "category": "risk_assessment",
+    "content": "Contract risk assessment identifies high, medium, and low-risk clauses. High-risk examples include unlimited liability, unilateral changes, automatic renewal, and lack of dispute resolution. It helps prioritize negotiation focus."
+  },
+  {
+    "id": "doc_031",
+    "title": "Digital Contracts and E-Signatures",
+    "category": "contract_law",
+    "content": "Electronic contracts are legally valid in many jurisdictions. In India, they are governed by the Information Technology Act 2000. E-signatures range from simple to qualified digital signatures. Some documents still require physical signatures."
+  },
+  {
+    "id": "doc_032",
+    "title": "Data Protection and Privacy Clauses",
+    "category": "compliance",
+    "content": "These clauses regulate how personal data is collected, processed, and protected. Key elements include data roles, security measures, breach notification, and compliance with laws such as GDPR and India’s Digital Personal Data Protection Act 2023."
+  },
+  {
+    "id": "doc_033",
+    "title": "Service Agreement",
+    "category": "contract_types",
+    "content": "A service agreement governs the delivery of services. It includes scope, timelines, payment, IP ownership, confidentiality, termination, and independent contractor status."
+  },
+  {
+    "id": "doc_034",
+    "title": "Agentic AI and LangGraph Concepts",
+    "category": "agentic_ai",
+    "content": "LangGraph is a framework for building stateful AI systems using nodes, edges, and shared state. It supports retrieval, tool usage, and evaluation flows. Common patterns include ReAct, planning, and reflection. It is often used with vector databases like ChromaDB."
   }
 ]
