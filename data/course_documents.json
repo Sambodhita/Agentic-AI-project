@@ -1,0 +1,152 @@
+[
+  {
+    "id": "doc_001",
+    "topic": "Non-Disclosure Agreement (NDA)",
+    "text": "A Non-Disclosure Agreement (NDA) is a legal contract that establishes a confidential relationship between parties. It ensures that sensitive information such as trade secrets, business strategies, or proprietary data is not disclosed to third parties. NDAs typically define what constitutes confidential information, the duration of confidentiality, obligations of the receiving party, and exceptions such as information already in the public domain."
+  },
+  {
+    "id": "doc_002",
+    "topic": "Employment Contract",
+    "text": "An employment contract is a legally binding agreement between an employer and an employee. It outlines job responsibilities, salary, benefits, working hours, termination conditions, and confidentiality obligations. It may also include clauses like non-compete, non-solicitation, and intellectual property ownership."
+  },
+  {
+    "id": "doc_003",
+    "topic": "Liability Clause",
+    "text": "A liability clause limits or defines the extent to which a party can be held responsible for damages or losses. It often caps the amount of liability or excludes certain types of damages such as indirect or consequential losses. This clause is critical in risk allocation between parties."
+  },
+  {
+    "id": "doc_004",
+    "topic": "Indemnity Clause",
+    "text": "An indemnity clause requires one party to compensate the other for certain losses or damages. It shifts financial responsibility from one party to another in case of specific events such as breach of contract, negligence, or third-party claims."
+  },
+  {
+    "id": "doc_005",
+    "topic": "Termination Clause",
+    "text": "A termination clause defines the conditions under which a contract can be ended by either party. It includes notice periods, termination for cause, termination without cause, and consequences such as payment obligations or return of confidential materials."
+  },
+  {
+    "id": "doc_006",
+    "topic": "Jurisdiction Clause",
+    "text": "A jurisdiction clause specifies which court or legal authority will handle disputes arising from a contract. It ensures clarity on where legal proceedings will take place and which laws will apply."
+  },
+  {
+    "id": "doc_007",
+    "topic": "Force Majeure Clause",
+    "text": "A force majeure clause protects parties from liability when unforeseen events beyond their control prevent them from fulfilling contractual obligations. Examples include natural disasters, war, pandemics, or government actions."
+  },
+  {
+    "id": "doc_008",
+    "topic": "Non-Compete Clause",
+    "text": "A non-compete clause restricts one party, usually an employee, from engaging in similar business activities that compete with the employer for a specified time and within a defined geographic area after leaving the company."
+  },
+  {
+    "id": "doc_009",
+    "topic": "Arbitration Clause",
+    "text": "An arbitration clause requires disputes to be resolved through arbitration instead of court litigation. Arbitration is typically faster, private, and less formal than court proceedings."
+  },
+  {
+    "id": "doc_010",
+    "topic": "Confidentiality Clause",
+    "text": "A confidentiality clause ensures that sensitive information shared between parties is protected. It defines the scope of confidential information, obligations to protect it, and consequences of breach."
+  },
+  {
+    "id": "doc_011",
+    "topic": "Intellectual Property Clause",
+    "text": "An intellectual property clause defines ownership rights over creations such as inventions, designs, or content developed during a contract. It ensures clarity on who retains rights to the work produced."
+  },
+  {
+    "id": "doc_012",
+    "topic": "Payment Terms Clause",
+    "text": "Payment terms specify how and when payments should be made under a contract. It includes due dates, penalties for late payments, methods of payment, and any installment structures."
+  },
+  {
+    "id": "doc_013",
+    "topic": "Breach of Contract",
+    "text": "A breach of contract occurs when one party fails to fulfill its obligations as specified in the agreement. Breaches can be minor or material. Remedies may include damages, specific performance, or contract termination depending on severity."
+  },
+  {
+    "id": "doc_014",
+    "topic": "Consideration in Contracts",
+    "text": "Consideration refers to something of value exchanged between parties in a contract. It is a fundamental requirement for a legally enforceable agreement and can include money, services, or promises."
+  },
+  {
+    "id": "doc_015",
+    "topic": "Offer and Acceptance",
+    "text": "A valid contract requires a clear offer by one party and acceptance by another. Acceptance must match the terms of the offer exactly and be communicated effectively."
+  },
+  {
+    "id": "doc_016",
+    "topic": "Capacity to Contract",
+    "text": "Capacity refers to a party’s legal ability to enter into a contract. Individuals must be of sound mind, legal age, and not disqualified by law to form a binding agreement."
+  },
+  {
+    "id": "doc_017",
+    "topic": "Duress and Undue Influence",
+    "text": "Contracts formed under pressure, coercion, or manipulation may be invalid. Duress involves threats, while undue influence involves exploiting a position of power over another party."
+  },
+  {
+    "id": "doc_018",
+    "topic": "Remedies for Breach",
+    "text": "Remedies for breach of contract include compensatory damages, punitive damages, rescission, and specific performance. The goal is to restore the injured party to their original position."
+  },
+  {
+    "id": "doc_019",
+    "topic": "Contract Interpretation",
+    "text": "Contract interpretation involves analyzing the meaning of terms and clauses. Courts consider plain language, intent of parties, and surrounding circumstances to resolve ambiguities."
+  },
+  {
+    "id": "doc_020",
+    "topic": "Entire Agreement Clause",
+    "text": "An entire agreement clause states that the written contract represents the full and final agreement between parties, excluding any prior discussions or understandings."
+  },
+  {
+    "id": "doc_021",
+    "topic": "Specific Performance",
+    "text": "Specific performance is a legal remedy where the court orders a party to perform their contractual obligations instead of paying damages. It is typically used when monetary compensation is insufficient, such as in real estate transactions."
+  },
+  {
+    "id": "doc_022",
+    "topic": "Rescission of Contract",
+    "text": "Rescission is the cancellation of a contract, returning both parties to their original positions before the agreement. It is commonly used when a contract is formed due to misrepresentation, fraud, or mistake."
+  },
+  {
+    "id": "doc_023",
+    "topic": "Misrepresentation",
+    "text": "Misrepresentation occurs when one party makes a false statement that induces another party to enter into a contract. Depending on whether it is innocent, negligent, or fraudulent, different remedies may apply."
+  },
+  {
+    "id": "doc_024",
+    "topic": "Void vs Voidable Contracts",
+    "text": "A void contract is not legally enforceable from the beginning, while a voidable contract is valid until one party chooses to void it due to certain legal defects such as misrepresentation or coercion."
+  },
+  {
+    "id": "doc_025",
+    "topic": "Liquidated Damages",
+    "text": "Liquidated damages are a pre-agreed amount specified in a contract to be paid if one party breaches the agreement. They must be a genuine estimate of loss and not a penalty."
+  },
+  {
+    "id": "doc_026",
+    "topic": "Penalty Clause",
+    "text": "A penalty clause imposes an excessive monetary charge on breach of contract. Courts generally do not enforce penalty clauses if they are deemed punitive rather than compensatory."
+  },
+  {
+    "id": "doc_027",
+    "topic": "Standard Form Contracts",
+    "text": "Standard form contracts are pre-drafted agreements where one party has little to no ability to negotiate terms. These are common in consumer agreements and may raise fairness concerns."
+  },
+  {
+    "id": "doc_028",
+    "topic": "Unconscionable Contracts",
+    "text": "An unconscionable contract is one that is extremely unfair or one-sided. Courts may refuse to enforce such agreements if they result from unequal bargaining power."
+  },
+  {
+    "id": "doc_029",
+    "topic": "Agency Relationship",
+    "text": "An agency relationship exists when one party (agent) acts on behalf of another (principal). The agent can create legal obligations for the principal through their actions."
+  },
+  {
+    "id": "doc_030",
+    "topic": "Partnership Agreements",
+    "text": "A partnership agreement defines the relationship between business partners, including roles, profit sharing, decision-making, and dispute resolution mechanisms."
+  }
+]
