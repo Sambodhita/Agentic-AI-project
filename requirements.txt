@@ -1,0 +1,11 @@
+langchain
+langgraph
+langchain-openai
+openai
+langchain-core
+streamlit
+scikit-learn
+numpy
+pandas
+tqdm
+python-dotenv
