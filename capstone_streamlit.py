@@ -6,18 +6,14 @@ Run: streamlit run app.py
 import streamlit as st
 import uuid
 
-# ─────────────────────────────────────────────
-# PAGE CONFIG
-# ─────────────────────────────────────────────
+
 st.set_page_config(
-    page_title="LexAI — Legal Assistant",
+    page_title="LegalAI — Legal Assistant",
     page_icon="⚖️",
     layout="wide"
 )
 
-# ─────────────────────────────────────────────
-# CUSTOM CSS
-# ─────────────────────────────────────────────
+
 st.markdown("""
 <style>
 .main { background: #0D0E0F; }
@@ -68,11 +64,8 @@ if "messages" not in st.session_state:
 if "meta" not in st.session_state:
     st.session_state.meta = []
 
-# ─────────────────────────────────────────────
-# SIDEBAR
-# ─────────────────────────────────────────────
 with st.sidebar:
-    st.title("⚖️ LexAI")
+    st.title("⚖️ LegalAI")
     st.caption("Legal AI Assistant")
 
     st.code(f"Session: {st.session_state.thread_id}")
@@ -101,19 +94,14 @@ with st.sidebar:
             st.session_state._inject = ex
             st.rerun()
 
-# ─────────────────────────────────────────────
-# HEADER
-# ─────────────────────────────────────────────
 st.markdown("""
 <div class="lex-header">
-<h1>⚖️ LexAI</h1>
+<h1>⚖️ LegalAI</h1>
 <p>AI-powered Legal Assistant (RAG + Tools + LangGraph)</p>
 </div>
 """, unsafe_allow_html=True)
 
-# ─────────────────────────────────────────────
-# CHAT HISTORY DISPLAY
-# ─────────────────────────────────────────────
+
 for i, msg in enumerate(st.session_state.messages):
     with st.chat_message(msg["role"]):
         st.markdown(msg["content"])
@@ -135,18 +123,15 @@ for i, msg in enumerate(st.session_state.messages):
                 if sources:
                     st.markdown(" ".join([f'<span class="source-chip">{s}</span>' for s in sources]), unsafe_allow_html=True)
 
-# ─────────────────────────────────────────────
-# INPUT
-# ─────────────────────────────────────────────
+
 user_input = st.chat_input("Ask a legal question...")
 
 # Inject example
 if "_inject" in st.session_state:
     user_input = st.session_state.pop("_inject")
 
-# ─────────────────────────────────────────────
-# HANDLE INPUT
-# ─────────────────────────────────────────────
+
+ 
 if user_input:
     st.session_state.messages.append({"role": "user", "content": user_input})
 
