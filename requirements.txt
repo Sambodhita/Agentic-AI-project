@@ -1,9 +1,11 @@
 langchain
 langgraph
+chromadb
 langchain-openai
 openai
 langchain-core
 streamlit
+sentence-transformers
 scikit-learn
 numpy
 pandas
