@@ -2,7 +2,7 @@ import json
 from typing import List, Dict
 
 
-def load_docs(path: str = "data/legal_docs.json") -> List[Dict]:
+def load_docs(path: str = "data/legal_documents.json") -> List[Dict]:
     try:
         with open(path, "r", encoding="utf-8") as f:
             docs = json.load(f)
@@ -36,7 +36,7 @@ def load_docs(path: str = "data/legal_docs.json") -> List[Dict]:
             raise Exception(f"❌ 'text' must be string in doc {i}")
 
         # Check length (important for capstone)
-        if len(doc["text"].split()) < 20:
+        if len(doc["content"].split()) < 20:
             print(f" Warning: Document {doc['id']} is too short (<20 words)")
 
         validated_docs.append(doc)
@@ -48,3 +48,4 @@ if __name__ == "__main__":
     docs = load_docs()
     print(f"Loaded {len(docs)} documents")
     print(docs[0])
+   
