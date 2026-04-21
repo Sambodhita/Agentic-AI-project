@@ -109,10 +109,11 @@ if __name__ == "__main__":
         "What is a contract?",
         "Calculate penalty 1000 at 10%",
         "Analyze risk unlimited liability clause",
-        "What happens in breac        print(f" A: {ask(q)}")h of contract?",
+        "What happens in breach of contract?",
         "Hello, my name is Neha",
         "What is my name?"
     ]
 
     for q in test_questions:
         print(f"\n Q: {q}")
+        print(f" A: {ask(q)}")
