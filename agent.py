@@ -1,5 +1,4 @@
-from dotenv import load_dotenv
-load_dotenv()
+
 """
 Legal Assistant Agent (Final)
 
@@ -21,8 +20,14 @@ from data.loader import load_docs
 
 
 #  LLM
-llm = ChatOpenAI(model="gpt-4o-mini")
+from langchain_groq import ChatGroq
+import streamlit as st
 
+llm = ChatGroq(
+    model="llama3-8b-8192",
+    temperature=0,
+    api_key=st.secrets["legalAI"]
+)
 
 #  EMBEDDINGS
 embedder = SentenceTransformer("all-MiniLM-L6-v2")
@@ -84,6 +89,16 @@ def ask(question: str, thread_id: str = "default") -> str:
 
     return result["answer"]
 
+def chat(user_message: str, thread_id: str = "default") -> dict:
+    response = ask(user_message, thread_id)
+
+    return {
+        "response": response,
+        "intent": "unknown",
+        "eval_passed": True,
+        "sources": [],
+        "thread_id": thread_id
+    }
 
 #  TEST RUN
 if __name__ == "__main__":
@@ -94,11 +109,10 @@ if __name__ == "__main__":
         "What is a contract?",
         "Calculate penalty 1000 at 10%",
         "Analyze risk unlimited liability clause",
-        "What happens in breach of contract?",
+        "What happens in breac        print(f" A: {ask(q)}")h of contract?",
         "Hello, my name is Neha",
         "What is my name?"
     ]
 
     for q in test_questions:
         print(f"\n Q: {q}")
-        print(f" A: {ask(q)}")
