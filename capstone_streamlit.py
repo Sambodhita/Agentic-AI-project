@@ -1,8 +1,3 @@
-"""
-app.py — Streamlit UI for Legal AI Assistant
-Run: streamlit run app.py
-"""
-
 import streamlit as st
 import uuid
 
@@ -162,4 +157,5 @@ if user_input:
             except Exception as e:
                 error = f"⚠️ Error: {str(e)}"
                 st.error(error)
+                st.session_state.messages.append({"role": "assistant", "content": error})r(error)
                 st.session_state.messages.append({"role": "assistant", "content": error})
