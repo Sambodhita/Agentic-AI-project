@@ -157,5 +157,5 @@ if user_input:
             except Exception as e:
                 error = f"⚠️ Error: {str(e)}"
                 st.error(error)
-                st.session_state.messages.append({"role": "assistant", "content": error})r(error)
+                st.session_state.messages.append({"role": "assistant", "content": error})
                 st.session_state.messages.append({"role": "assistant", "content": error})
